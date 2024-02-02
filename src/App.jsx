@@ -13,7 +13,11 @@ const router  = createBrowserRouter([{
 {
   path: '/show/:id',
   element: <ShowSummary />
-}]);
+},
+], {
+  basename: '/TV_SHOWS_REACT_APP.github.io',
+});
+
 function App() {
   return (
     <>
